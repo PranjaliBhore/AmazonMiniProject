@@ -40,7 +40,7 @@ public class Amazoncart {
         Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).clear();
-		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("mouse");
+		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Laptop");
 		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
 		Thread.sleep(2000);
 		List<WebElement> results=driver.findElements(By.xpath("//div[@class='s-expand-height s-include-content-margin s-latency-cf-section s-border-bottom']"));
